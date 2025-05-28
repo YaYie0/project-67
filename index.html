@@ -1,0 +1,472 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ร้านขนมหวานแม่ศรีลา</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Light Box CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" 
+        rel="stylesheet" 
+    />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0" style="font-family: 'Charm', cursive;" >ร้านขนมหวาน<span class="text-secondary" style="font-family: 'Charm', cursive;" >แม่ศรีลา</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">แนะนำ</a>
+                    <a href="product.html" class="nav-item nav-link">เมนูขนมไทย</a>
+                    <a href="promotion.html" class="nav-item nav-link">โปรโมชั่น</a>
+                    <a href="review.html" class="nav-item nav-link">รีวิว</a>
+                    <a href="contact.html" class="nav-item nav-link">ติดต่อ</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="login.html">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown" style="font-family: 'Kanit', sans-serif;">ยินดีต้อนรับ</h1>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" >ร้านขายขนมหวาน โดยคุณศรีลา สุวรรณารัญ ใช้วัตถุดิบที่สดใหม่ทุกวัน รสชาติอร่อย หอมหวาน และมีเอกลักษณ์ของทางร้าน</p>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" > <i>สินค้าขายดีที่เราขอแนะนำ : เม็ดขนุน เนื้อเนียนละเอียด หวานกำลังดี <br> ใช้ส่วนผสมจากถั่วเขียวเป็นหลัก นอกจากนี้เม็ดนุนยังมีความหมาย <br> ที่สื่อถึงความสำเร็จอีกด้วย</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown" style="font-family: 'Kanit', sans-serif;">ขนมหวานหลากหลาย</h1>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" >เรามีทั้งทองหยิบ ทองหยอด ทองม้วน มะม่วงกวน และอื่นๆอีกมากมาย <br> ที่เป็นทั้งขนมหวานและขนมไทยบ้านเรา</p>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" > <i>สินค้าขายดีที่เราขอแนะนำ : ฝอยทอง มีกลิ่นหอมของใบเตยและดอกมะลิ <br> มักใช้ในการประกอบพิธีกรรมต่างๆ หรือหากเป็นงานแต่งจะสื่อถึงการครองรักครองเรือนที่ยาวนาน มีชีวิตที่ยืนยาวเหมือนเส้นของฝอยทอง</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-3.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown" style="font-family: 'Kanit', sans-serif;">บริการส่งฟรีในพื้นที่</h1>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" >เปิด 07.00 - 18.00 น. สามารถติดต่อเพื่อสั่งซื้อขนมหวานที่สดใหม่ทุกวัน โทร.092-549-6022 หรือช่องทางอื่น</p>
+                                    <p style="font-family: 'Kanit', sans-serif; font-size: 25px; color: black;" > <i>สินค้าขายดีที่เราขอแนะนำ : ทองหยอด รสชาติหวานละมุน เนื้อนุ่มอิ่มน้ำ ถูกใจคนกินหวาน สื่อถึงการให้มั่งคั่งร่ำรวย มีเงินทองใช้จ่าย</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Product Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3" style="font-family: 'Kanit', sans-serif;">เมนูขนมหวาน</h1>
+                </div>
+            </div>
+            
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                        <a 
+                                            href="img/product-1-lg.jpg"
+                                            class="example-image-link" 
+                                            data-lightbox="example-set" 
+                                            data-title="ขนมชั้น ชิ้นละ 10 บาท หรือกล่องละ 50 บาท (6 ชิ้น) เนื้อนุ่ม เหนียว หนึบ
+                                            มีกลิ่นหอมจากใบเตย ทำเป็นชั้นสูงสุด 9 ครั้งเพราะเป็นเลขมงคล เป็นขนมที่ได้รับอิทธิพลมาจากต่างประเทศ
+                                            ขนมชั้นจะสื่อความหมายถึงระดับขั้นยศตำแหน่ง ความเจริญก้าวหน้าในหน้าที่การงาน"
+                                        >
+                                            <img class="img-fluid w-100" src="img/product-1.jpg" alt="small image"/>
+                                        </a>
+                                    <!-- <img class="img-fluid w-100" src="img/product-1.jpg" alt=""> -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ขนมชั้น</a>
+                                    <span class="text-primary me-1">ชิ้นละ 10 บ. / กล่องละ 50 บ. (6 ชิ้น)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-2-lg.jpg"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="ทองหยอด กล่องละ 45 บาท (50 เม็ด) ทีรูปทรงที่สวยงาม เนื้ออ่อนนิ่มทั้งด้านนอก และด้านใน
+                                    ความหวานที่พอดี และมีกลิ่นหอม เราเลือกไข่ที่สดใหม่มาใช้ในการทำเท่านั้น ถือเป็นของขวัญที่อวยพรให้ผู้รับ 
+                                    มีทรัพย์สินเงินทอง สามารถใช้ชีวิตคู่ได้ตลอดรอดฝั่ง"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-2.jpg" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-2.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ทองหยอด</a>
+                                    <span class="text-primary me-1">กล่องละ 45 บ. (50 เม็ด)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-3-lg.jpg"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="ทองหยิบ กล่องละ 50 บาท (20 ดอก)
+                                    ขนมไทยที่มีมาตั้งแต่สมัยกรุงศรีอยุธยา ลักษณะคล้ายดอกไม้สีทอง
+                                    จับจีบอย่างประณีตให้เหมือนกลีบดอกไม้ สื่อความหมายถึงความมั่งคั่งร่ำรวย 
+                                    ทำการงานสิ่งใดก็จะร่ำรวยมีเงินมีทองใช้ไม่ขาดมือ หยิบเงินหยิบทองสมดังชื่อทองหยิบ"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-3.jpg" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-3.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ทองหยิบ</a>
+                                    <span class="text-primary me-1">กล่องละ 50 บ. (20 ดอก)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-4-lg.jpg"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="ฝอยทอง ครึ่งกิโลกรัม 115 บาท ขนมไทยที่ทำจากไข่แดงสีเหลือง  มีลักษณะเป็นเส้นยาวๆ  
+                                    วางแบบทบกันเป็นแพ มักนำมาใช้ในงานมงคลต่างๆ  โดยเฉพาะงานแต่งงาน  
+                                    ซึ่งขั้นตอนการทำจะต้องทำเป็นเส้นยาวๆ เพื่อสื่อความหมายถึงการครองรักครองเรือนที่ยาวนาน  
+                                    หรือการอวยพรให้มีชีวิตที่ยืนยาวเหมือนเส้นของฝอยทอง"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-4.jpg" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-4.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ฝอยทอง</a>
+                                    <span class="text-primary me-1">ครึ่งกิโลกรัม 115 บ.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-5-lg.jpg"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="เม็ดขนุนถั่ว กล่องละ 50 บาท (50 เม็ด)  ขนมไทยอีกหนึ่งในขนมตระกูลทอง  
+                                    เพราะทำมาจากไข่แดงที่ให้สีเหลืองทอง รูปร่างลักษณะคล้ายกับเม็ดขนุนสอดไส้ด้านในด้วยถั่วเขียวบดละเอียด  
+                                    รสหวานมัน เชื่อกันว่าชื่อของขนมเม็ดขนุนนี้เองจะช่วยเสริมความเป็นสิริมงคล ให้มีคนคอยสนับสนุน  
+                                    ไม่ว่าจะเป็นในเรื่องของการดำเนินชีวิต  หน้าที่การงาน  หรือกิจการต่าง ๆ"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-5.jpg" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-5.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">เม็ดขนุนถั่ว</a>
+                                    <span class="text-primary me-1">กล่องละ 50 บ. (50 เม็ด)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-6-lg.png"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="เม็ดขนุนเผือก กล่องละ 50 บาท (50 เม็ด) เป็นหนึ่งในขนมตระกูลทอง มีสีเหลืองทอง
+                                    รูปร่างลักษณะคล้ายกับเม็ดขนุน ข้างในมีไส้เผือกที่มีสัมผัสนุ่มชุ่มลิ้น หอมหวานกำลังดี มีความเชื่อกันว่า 
+                                    ชื่อของขนมเม็ดขนุนจะเป็นสิริมงคล ช่วยให้มีคนสนับสนุน หนุนเนื่อง ในการดำเนินชีวิตและในหน้าที่การงานหรือกิจการต่างๆ 
+                                    ที่ได้กระทำอยู่"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-6.png" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-5.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">เม็ดขนุนเผือก</a>
+                                    <span class="text-primary me-1">กล่องละ 50 บ. (50 เม็ด)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-7-lg.png"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="ทองหยอดไข่แมงดา ครึ่งกิโลกรัม 100 บาท  เป็นขนมหวานในตระกูลเดียวกันกับทองหยอด 
+                                    แต่มีขนาดเป็นเม็ดเล็กๆเท่าไข่ปลา จึงตั้งชื่อให้ว่า ทองหยอดไข่ปลา ให้รสชาติเดียวกับทองหยอดที่มีความหวานน้อย
+                                    แต่กินแล้วได้ความสนุกปากมากขึ้น นอกจากกินเล่นๆ แล้ว ยังสามารถเอาไปใส่ประกอบขนมอื่นๆ เช่น แต่งหน้าเค้ก 
+                                    ใส่เป็นไส้ขนมเบื้อง ขนมถังแตก หรือโรยใส่ไอศครีมก็เพิ่มความอร่อยให้กับขนมนั้นๆ ได้เป็นอย่างดี"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-7.png" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-5.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ทองหยอดไข่แมงดา</a>
+                                    <span class="text-primary me-1">ครึ่งกิโลกรัม 100 บ.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                <a 
+                                    href="img/product-8-lg.png"
+                                    class="example-image-link" 
+                                    data-lightbox="example-set" 
+                                    data-title="ขนมใส่ไส้ ชิ้นละ 10 บาท  ขนมที่ใช้แป้งข้าวเหนียวขาวและแป้งข้าวเหนียวดำ 
+                                    ข้างในเป็นไส้มะพร้าวเคี่ยวน้ำตาล ห่อด้วยใบตองให้เป็นทรงสูง มีกลิ่นหอม ไส้หวาน เค็มมันด้วยกระทิที่ข้น 
+                                    เป็นขนมไทยที่ใช้ในงานมงคล โดยเฉพาะพิธีงานหมั้น ที่มีการแห่ขันหมากเพื่อไปสู่ขอเจ้าสาว"
+                                >
+                                    <img class="img-fluid w-100" src="img/product-8.png" alt="small image"/>
+                                </a>
+                                    <!--<img class="img-fluid w-100" src="img/product-5.jpg" alt="">-->
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="" style="font-family: 'Kanit', sans-serif;">ขนมใส่ไส้</a>
+                                    <span class="text-primary me-1">ชิ้นละ 10 บ.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light bg-icon my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3" style="font-family: 'Kanit', sans-serif;">โปรโมชั่น</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
+                        <h4 class="mb-3" style="font-family: 'Kanit', sans-serif;">ซื้อขนม 5 กล่อง</h4>
+                        <p class="mb-4">แถมฟรี 1 กล่อง</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h4 class="mb-3" style="font-family: 'Kanit', sans-serif;">ซื้อครบ 1,000 บาท</h4>
+                        <p class="mb-4">รับส่วนลด 5%</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <h4 class="mb-3" style="font-family: 'Kanit', sans-serif;">ซื้อครบ 2,000</h4>
+                        <p class="mb-4">รับส่วนลด 15%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light bg-icon py-6 mb-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3" style="font-family: 'Kanit', sans-serif;">รีวิว</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">ตัวเนื้อเม็ดขนุน ประกอบไปด้วย ถั่วเขียวเลาะเปลือกนึ่งสุก หัวกะทิ มะพร้าวทึนทึกขูดเส้น และน้ำตาลทราย นอกจากการปั้นเป็นรูปเม็ดขนุนแล้ว เรายังสามารถปั้นเป็นลูกจันทน์ ด้วยการปั้นเป็นก้อนกลม และกดให้แบนลงเล็กน้อยได้ด้วยเช่นกัน</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/product-5.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="font-family: 'Kanit', sans-serif;">เม็ดขนุน</h5>
+                            <span>สินค้าขายดีที่สุด</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">เส้นฝอยทองเหนียวนุ่ม หวานอร่อย ทำได้โดยการแยกไข่แดงกับไข่ขาวออกจากกัน และ รีดไข่น้ำค้างลงไปในไข่แดง จากนั้นตีผสมไข่แดงให้พอเป็นเนื้อเดียวกัน ตักส่วนผสมไข่แดงใส่กรวย เทลงไปในน้ำลอยดอกมะลิเชื่อม จนเส้นฝอยทองสุก</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/product-4.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="font-family: 'Kanit', sans-serif;">ฝอยทอง</h5>
+                            <span>สินค้าขายดีที่สุด</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">เคล็ดลับสำคัญของทองหยอดอยู่ที่น้ำเชื่อม จะต้องมีกลิ่นหอมเพื่อช่วยดับกลิ่นคาวของไข่เป็ด โดยคนโบราณจะทำน้ำลอยดอกมะลิ ซึ่งจะใส่ดอกมะลิและกระดังงาลงไปในน้ำสะอาดแล้วแช่ข้ามคืน จากนั้นก็เอาออก เพื่อไม่ให้ดอกมะลิทำน้ำขุ่น</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/product-2.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="font-family: 'Kanit', sans-serif;">ทองหยอด</h5>
+                            <span>สินค้าขายดีที่สุด</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py -5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4" style="font-family: 'Kanit', sans-serif;">ติดต่อร้าน</h1>
+                    <p class="me-4" style="font-family: 'Kanit', sans-serif;">บ้านสวนตาเจม @ท่าอิฐ <br>30/1 ม.3 ถนนหมู่บ้านชวนชื่น โมดัส ท่าอิฐ ตำบล ท่าอิฐ อำเภอปากเกร็ด นนทบุรี 11120</p>
+                    <p>Facebook : KO RN</p>
+                    <p>Instagram : 26j_2006</p>
+                    <p>โทร. 092-549-6022</p>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="img/about.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Firm Visit Start -->
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-dark fw-bold mb-5 text-center" style="font-family: 'Kanit', sans-serif;">แผนที่ร้าน</h1>
+                    <p class="text-white mb-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.968816647018!2d100.45901937490879!3d13.90081209382648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2857dc3c097b3%3A0xb32e8758c00d1882!2z4Lia4LmJ4Liy4LiZ4Liq4Lin4LiZ4LiV4Liy4LmA4LiI4LihQOC4l-C5iOC4suC4reC4tOC4kA!5e0!3m2!1sth!2sth!4v1691464814707!5m2!1sth!2sth" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Firm Visit End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- LightBox Js -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
